@@ -1,0 +1,48 @@
+body{
+    font-family: "Cinzel", serif;
+}
+:root{
+    --main-color:#f4d35e;
+    --section-color:#eef0eb;
+  
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5) 0% 100%) , url('../images/c837a6_350b9b66f89946039bf9582392a8290a~mv2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    min-height:100vh ;
+    color: white;
+}
+header h1{
+    letter-spacing: 20px;
+    font-size: 150px;
+    color: var(--main-color);
+
+}
+section{
+    background-color: var(--section-color);
+}
+section h2{
+    color: black;
+    text-align: center;
+    margin-block:40px ;
+    font-size: 80px;
+}
+section .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: black;
+    color: white;
+    transition: all 1s ease;
+    
+}
+  
+section .card .card-title{
+    color: var(--main-color);
+}
+section .card:hover{
+    transform: scale(1.09);
+    background-color: white;
+    color: #000;
+}
